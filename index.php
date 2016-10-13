@@ -7,9 +7,10 @@
 		<link rel="stylesheet" type="text/css" href="style/design.css">
 	</head>
 	<body>
-		<header></header>
-		<section></section>
-		<aside></aside>
-		<footer></footer>
+		<header>
+			<h1 class="titre">Camagru <?php include 'nav.php'; ?></h1>
+		</header>
+		<section>home</section>
+		<footer>@basle-qu</footer>
 	</body>
 </html>
