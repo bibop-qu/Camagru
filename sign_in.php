@@ -16,8 +16,9 @@
 				<label>IDENTIFIANT</label>
 				<input id=inp type="text" name="login" placeholder="Login"/><br/>
 				<label>MOT DE PASSE</label>
-				<input id=inp type="password" name="passwd" placeholder="Password"/><br/>
-				<a id="register" href="./register.php">register<br/><br/></a>
+				<input id=inp type="password" name="passwd" placeholder="Password"/><br/><br/>
+				<a id="register" href="./register.php">register</a>
+				<a id="forgoten" href="./forgoten.php">mot de passe oublié<br/><br/></a>
 				<input id=sub type="submit" name="submit" value="OK"/>
 				</form>
 		</section>

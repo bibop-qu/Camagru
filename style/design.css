@@ -155,7 +155,7 @@ form header{
         background-color:grey;
         text-align: center;
         width: 400px;
-        height: 150px;
+        height: 200px;
         color: lightgrey;
         font-family: tahoma;
         font-size: 16px;
@@ -231,4 +231,10 @@ form header{
 
 #register{
 text-align: center;
+color: black;
+}
+
+#forgoten{
+text-align: center;
+color: black;
 }
