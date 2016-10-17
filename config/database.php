@@ -1,11 +1,5 @@
 <?php
-	if (ROOT == "/Applications/MAMP/htdocs/camagru/"){
-		$DB_DSN = "mysql:host=localhost;";
+		$DB_DSN = "mysql:host=localhost:3306;dbname=basle_camagru";
 		$DB_USER = "root";
-		$DB_PASSWORD = "root";
-	} else {
-		$DB_DSN = "mysql:host=localhost;";
-		$DB_USER = "admin";
-		$DB_PASSWORD = "admin";
-	}
+		$DB_PASSWORD = "admin42";
 ?>
