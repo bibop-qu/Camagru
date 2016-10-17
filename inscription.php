@@ -9,7 +9,6 @@ if ($_POST['passwd'] != $_POST['repasswd'])
 	header("location: register.php");
 
 try {
-//		echo "test"."\n";
 		$db=new PDO($DB_DSN, $DB_USER, $DB_PASSWORD);
 		// set the PDO error mode to exception
 		$db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
@@ -50,6 +49,6 @@ catch(PDOException $e) {
   $prep->execute();
   $prep->closeCursor();
   $prep = NULL;
-  
+
 echo "YESf";
 ?>

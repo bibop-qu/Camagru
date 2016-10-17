@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <html>
 	<head>
 		<title>Camagru</title>
@@ -10,7 +11,14 @@
 		<header>
 			<h1 class="titre">Camagru <?php include 'nav.php'; ?></h1>
 		</header>
-		<section>home</section>
+		<section>
+			<?php
+			if ($_SESSION['login'])
+				echo 'Hello '. $_SESSION['login'];
+			else
+				echo Home;
+			?>
+		</section>
 		<footer>@basle-qu</footer>
 	</body>
 </html>
